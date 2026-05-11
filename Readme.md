@@ -1,39 +1,121 @@
-## Spring Boot WebSocket Chat Appplication
+# Spring Boot Chat Application
 
-You can checkout the live version of the application at https://spring-ws-chat.herokuapp.com/
+A real-time chat application developed using Spring Boot and WebSocket technology.
 
-![App Screenshot](screenshot.png)
+This project enables multiple users to communicate instantly through WebSocket-based messaging with a responsive web interface.
 
-## Requirements
+---
 
-1. Java - 11
+# Features
 
-2. Maven - 3.x.x
+- Real-time messaging
+- WebSocket communication
+- User join and leave notifications
+- Responsive chat interface
+- Event-driven communication
+- REST API integration
+- Docker support
+- Kubernetes deployment configuration
 
-## Steps to Setup
+---
 
-**1. Clone the application**
+# Technologies Used
 
-```bash
-git clone https://github.com/callicoder/spring-boot-websocket-chat-demo.git
+- Java 11
+- Spring Boot
+- WebSocket
+- HTML/CSS
+- JavaScript
+- Maven
+- Docker
+
+---
+
+# Project Structure
+
+```text
+src/
+ ├── config/
+ ├── controller/
+ ├── model/
+ ├── static/
+ └── resources/
 ```
 
-**2. Build and run the app using maven**
+---
 
-```bash
-cd spring-boot-websocket-chat-demo
-mvn package
-java -jar target/websocket-demo-0.0.1-SNAPSHOT.jar
-```
+# Requirements
 
-Alternatively, you can run the app directly without packaging it like so -
+- Java 11+
+- Maven 3+
+
+---
+
+# How to Run
+
+## Run Using Maven
 
 ```bash
 mvn spring-boot:run
 ```
 
-## Learn More
+## Alternative Method
 
-You can find the tutorial for this application on my blog -
+```bash
+mvn package
+java -jar target/websocket-demo-0.0.1-SNAPSHOT.jar
+```
 
-https://www.callicoder.com/spring-boot-websocket-chat-example/
+---
+
+# Application URL
+
+```text
+http://localhost:8080
+```
+
+---
+
+# Screenshots
+
+![Chat Application](screenshot.png)
+
+---
+
+# Future Improvements
+
+- User authentication
+- Private messaging
+- Group chat functionality
+- Database message persistence
+- Online user tracking
+
+---
+
+# Learning Outcomes
+
+This project helped in understanding:
+
+- WebSocket communication
+- Real-time application development
+- Spring Boot backend architecture
+- Event-driven messaging systems
+- Docker deployment basics
+
+---
+
+# Customization and Enhancements
+
+This project was customized and enhanced for learning and development purposes, including configuration updates and deployment support.
+
+---
+
+# Original Reference
+
+Inspired by WebSocket chat application tutorials and Spring Boot real-time communication examples.
+
+---
+
+# Developed By
+
+Sruthi Shakhamuri
